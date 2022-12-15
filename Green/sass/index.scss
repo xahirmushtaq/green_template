@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+$primary: #5cb874;
+
+//bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+//media queries
+@import "queries";
+//custom changes
+@import "changes";
+
+#map {
+	height: 290px;
+	width: 100%;
+}

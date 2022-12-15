@@ -1,0 +1,46 @@
+@media (min-width: 1600px) and (max-width: 2640px) {
+	.carousel-caption {
+		top: 35% !important;
+	}
+	.icon svg {
+		right: 39% !important;
+	}
+}
+@media (max-width: 768px) {
+	.background_1,
+	.background_2,
+	.background_3 {
+		height: 45vh !important;
+	}
+	.c_action {
+		text-align: center;
+	}
+	.card-body-about {
+		border: none !important;
+		padding: 20px 0px !important;
+	}
+	.tab {
+		column-count: 2 !important;
+	}
+	.icon svg {
+		position: absolute;
+		bottom: 61% !important;
+	}
+}
+@media (max-width: 390px) {
+	.section h3::after,
+	.section .h3::after {
+		left: 45% !important;
+		bottom: 75% !important;
+	}
+	.tab {
+		column-count: 1 !important;
+
+		.images {
+			margin: 10px 0px !important;
+		}
+	}
+	.text-carousel {
+		font-size: small !important;
+	}
+}

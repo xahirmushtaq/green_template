@@ -1,0 +1,141 @@
+.black {
+	color: black;
+}
+.bg-teams {
+	background-color: #f8fcf9;
+}
+.carousel-caption {
+	top: 80px;
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	h1 {
+		font-family: "Raleway", sans-serif;
+	}
+}
+.navbar-toggler {
+	color: transparent;
+}
+.navbar-nav {
+	padding: 0px 20px;
+}
+.col-lg-4:first-child,
+.col-md-6:first-child {
+	padding-left: 0;
+}
+.section {
+	h3::after {
+		content: "";
+		background: #5cb874;
+		width: 40px;
+		height: 3px;
+		position: absolute;
+		left: 48%;
+		bottom: 55%;
+	}
+}
+.nav {
+	z-index: 1;
+}
+.owl-item {
+	img {
+		display: block !important;
+		width: 80% !important;
+
+		opacity: 50%;
+	}
+	img:hover {
+		opacity: 100%;
+	}
+}
+.icon {
+	svg {
+		position: absolute;
+		bottom: 56%;
+		right: 38%;
+	}
+	i {
+		position: relative;
+		font-size: 35px;
+	}
+}
+.tab {
+	margin: 0 auto;
+	column-count: 3;
+	column-gap: 5px;
+	display: inline-block;
+
+	.images img {
+		width: 100%;
+		height: auto;
+		transform: scale(1);
+		transition: all 0.3s;
+	}
+}
+.images-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 3rem;
+	background: rgba(0, 0, 0, 0.479);
+	opacity: 40%;
+	color: white;
+	opacity: 0;
+}
+.images {
+	margin: 15px;
+}
+.img-fluid {
+	display: block;
+}
+.images-overlay:hover {
+	opacity: 1;
+}
+
+.box-images {
+	overflow: hidden;
+}
+.box-images:hover img {
+	transform: scale(1.3);
+}
+.form-control:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: $primary;
+	outline: 0;
+	box-shadow: 0 0 0 0.25rem rgb(92 184 116 / 25%);
+}
+.background_1 {
+	background: url(/img/slide/OG/slide-1.jpg);
+	height: 70vh;
+}
+.background_2 {
+	background: url(/img/slide/OG/slide-2.jpg);
+	height: 70vh;
+}
+.background_3 {
+	background: url(/img/slide/OG/slide-3.jpg);
+	height: 70vh;
+}
+.carousel_overlay {
+	background: linear-gradient(
+		341deg,
+		rgba(199, 217, 4, 1) 0%,
+		rgba(65, 142, 94, 0.6811099439775911) 0%
+	);
+}
+.carousel-indicators [data-bs-target] {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+.green-nav.active {
+	color: #5cb874 !important;
+}
